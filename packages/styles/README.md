@@ -24,5 +24,3 @@ import "@tne-kit/styles";
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

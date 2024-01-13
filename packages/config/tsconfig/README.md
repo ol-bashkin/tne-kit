@@ -21,5 +21,3 @@ Add to your tsconfig.json:
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

@@ -40,5 +40,3 @@ Use as component
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

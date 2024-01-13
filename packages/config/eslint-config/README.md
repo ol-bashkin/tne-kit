@@ -20,5 +20,3 @@ extends: ["@tne-kit/eslint-config"],
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

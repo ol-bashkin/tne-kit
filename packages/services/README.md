@@ -20,5 +20,3 @@ yarn add @tne-kit/services
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

@@ -35,5 +35,4 @@ yarn build
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com
+s

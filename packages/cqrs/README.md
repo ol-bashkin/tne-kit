@@ -17,5 +17,3 @@ yarn add @tne-kit/cqrs
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

@@ -22,5 +22,3 @@ yarn add @tne-kit/api
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

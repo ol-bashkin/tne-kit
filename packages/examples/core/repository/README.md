@@ -18,5 +18,3 @@ yarn examples:repository
 ## License
 
 MIT
-
-All questions: nefayran@gmail.com

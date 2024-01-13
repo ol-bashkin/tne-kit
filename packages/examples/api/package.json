@@ -7,9 +7,6 @@
     "api",
     "typescript"
   ],
-  "url": "https://github.com/nefayran/Way",
-  "homepage": "https://github.com/nefayran/Way",
-  "author": "https://github.com/nefayran",
   "license": "MIT",
   "scripts": {
     "examples:server": "nodemon ./server.ts",

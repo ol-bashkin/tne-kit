@@ -7,9 +7,6 @@
     "component",
     "typescript"
   ],
-  "url": "https://github.com/nefayran/Way",
-  "homepage": "https://github.com/nefayran/Way",
-  "author": "https://github.com/nefayran",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
