@@ -1,0 +1,49 @@
+{
+  "name": "@tne-kit/styles",
+  "description": "Milky way styles system",
+  "keywords": [
+    "css",
+    "grid",
+    "col",
+    "sass",
+    "scss",
+    "mediaqueries",
+    "flexbox"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "version": "0.0.7-alpha.0",
+  "license": "MIT",
+  "main": "dist/styles.min.css",
+  "sass": "src/_index.scss",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "sass src/_index.scss dist/styles.css && postcss dist/styles.css > dist/styles.min.css"
+  },
+  "devDependencies": {
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.48.0"
+  },
+  "dependencies": {
+    "cssnano": "^5.0.15",
+    "postcss": "^8.4.5"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bda4478ed57c8fa4b56a7656ca34ab3f9d4689f9"
+}

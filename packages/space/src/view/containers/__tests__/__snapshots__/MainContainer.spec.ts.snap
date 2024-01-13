@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContainer.vue should have an wb-container class 1`] = `
+<div
+  class="w-grid grid cols-12 wb-container"
+>
+  <div
+    class="w-col col col-2"
+  >
+    <div
+      class="wb-container"
+    >
+      <div
+        class="wb-sidebar ma-md pa-lg br-lg"
+      >
+        <h2
+          class="text-accent--base font-secondary"
+        >
+          Component
+        </h2>
+        <h3
+          class="pt-lg"
+        >
+          Properties:
+        </h3>
+        <!--v-if-->
+      </div>
+    </div>
+  </div>
+  <div
+    class="w-col col col-8"
+  >
+    <div
+      class="wb-container"
+    >
+      <div
+        class="wb-components my-md mx-md pa-lg br-lg flex"
+      >
+        <div
+          class="wb-component"
+        >
+          <h3
+            class="font-secondary"
+          >
+            EMPTY
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="w-col col col-2"
+  >
+    <div
+      class="wb-container"
+    >
+      <div
+        class="wb-sidebar ma-md pa-lg br-lg"
+      >
+        <div
+          class="w-grid grid cols-2"
+        >
+          <div
+            class="w-col col col-1"
+          >
+            <h1
+              class="text-accent--base font-secondary"
+            >
+              @way
+            </h1>
+            <button
+              class="border-no pa-xs br-sm accent--base"
+            >
+              <span
+                class="font-secondary"
+              >
+                light
+              </span>
+            </button>
+          </div>
+          <div
+            class="w-col col col-1"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-sprite"
+              fill="#fffccc"
+              height="85"
+              style="color: rgb(51, 51, 51);"
+              width="50"
+            >
+              <use
+                xlink:href="#sprite-logo"
+              />
+            </svg>
+          </div>
+        </div>
+        <h3
+          class="pt-lg"
+        >
+          Components:
+        </h3>
+        <ul
+          class="pl-md pt-md white--base list-none"
+        >
+          
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WApp
+            </span>
+          </li>
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WButton
+            </span>
+          </li>
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WGrid
+            </span>
+          </li>
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WContainer
+            </span>
+          </li>
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WRow
+            </span>
+          </li>
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WCol
+            </span>
+          </li>
+          <li
+            class="text-md pb-md text-primary--accent-1"
+          >
+            <span>
+              WInput
+            </span>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

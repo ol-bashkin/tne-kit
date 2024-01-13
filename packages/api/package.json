@@ -1,0 +1,35 @@
+{
+  "name": "@tne-kit/api",
+  "version": "0.0.3-alpha.1",
+  "description": "Milky way api client for frontend applications",
+  "keywords": [
+    "api",
+    "typescript"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "test": "jest --coverage",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@tne-kit/eslint-config": "^0.0.3-alpha.1",
+    "@tne-kit/tsconfig": "^0.0.3-alpha.0"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4",
+    "uglify-js": "^3.15.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bda4478ed57c8fa4b56a7656ca34ab3f9d4689f9"
+}

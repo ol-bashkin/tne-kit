@@ -1,0 +1,18 @@
+{
+  "name": "@tne-kit/cqrs",
+  "version": "0.0.3-alpha.1",
+  "description": "Milky way core system for frontend applications",
+  "keywords": [
+    "vue",
+    "component",
+    "typescript"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bda4478ed57c8fa4b56a7656ca34ab3f9d4689f9"
+}

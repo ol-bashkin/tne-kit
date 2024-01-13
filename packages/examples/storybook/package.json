@@ -1,0 +1,38 @@
+{
+  "name": "@tne-kit/examples-storybook",
+  "version": "0.0.7-alpha.1",
+  "private": "true",
+  "files": [
+    "storybook-static"
+  ],
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "lint": "eslint --ext .js,.ts,.vue",
+    "build": "build-storybook"
+  },
+  "dependencies": {
+    "@tne-kit/eslint-config": "^0.0.3-alpha.1",
+    "@tne-kit/space": "^0.0.7-alpha.1",
+    "@tne-kit/styles": "^0.0.7-alpha.0",
+    "@tne-kit/tsconfig": "^0.0.3-alpha.0",
+    "vue": "^3.2.28"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@storybook/addon-actions": "^6.4.13",
+    "@storybook/addon-essentials": "^6.4.13",
+    "@storybook/addon-links": "^6.4.13",
+    "@storybook/vue3": "^6.4.13",
+    "@vue/compiler-sfc": "^3.2.26",
+    "babel-loader": "^8.2.3",
+    "prettier": "^2.5.1",
+    "sass-loader": "^10.2.1",
+    "typescript": "4.5.4",
+    "vue-loader": "^16.8.3",
+    "vue-tsc": "^0.30.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bda4478ed57c8fa4b56a7656ca34ab3f9d4689f9"
+}

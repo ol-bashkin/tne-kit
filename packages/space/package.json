@@ -1,0 +1,77 @@
+{
+  "name": "@tne-kit/space",
+  "version": "0.0.7-alpha.1",
+  "description": "Milky way space system for creating components",
+  "keywords": [
+    "vue",
+    "component",
+    "typescript"
+  ],
+  "url": "https://github.com/nefayran/Way",
+  "homepage": "https://github.com/nefayran/Way",
+  "author": "https://github.com/nefayran",
+  "license": "MIT",
+  "main": "./dist/components/components.umd.js",
+  "module": "./dist/components/components.es.js",
+  "types": "./dist/types/components/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/components/components.es.js",
+      "require": "./dist/components/components.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite -c vite.space.config.js",
+    "start": "yarn test && yarn space",
+    "clean": "rimraf ./dist",
+    "space": "yarn build:space && vite preview -c vite.space.config.js --port 3000",
+    "lint": "eslint --ext .js,.ts,.vue",
+    "postcss": "postcss dist/components/styles.css > dist/components/styles.min.css",
+    "types": "tsc --emitDeclarationOnly",
+    "test": "jest --updateSnapshot --coverage",
+    "build": "vite build -c vite.components.config.js && yarn postcss && yarn types && yarn build:space",
+    "build:space": "vite build -c vite.space.config.js"
+  },
+  "dependencies": {
+    "@tne-kit/eslint-config": "^0.0.3-alpha.1",
+    "@tne-kit/sprites": "^0.0.7-alpha.1",
+    "@tne-kit/styles": "^0.0.7-alpha.0",
+    "@tne-kit/tsconfig": "^0.0.3-alpha.0",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@cypress/vue": "^3.1.0",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/cli-plugin-unit-jest": "^4.5.15",
+    "@vue/compiler-sfc": "^3.2.26",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "cssnano": "^5.0.15",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "prettier": "^2.5.1",
+    "typescript": "4.5.4",
+    "vite": "^2.7.12",
+    "vite-plugin-dts": "^0.9.9",
+    "vue-jest": "^5.0.0-alpha.10",
+    "vue-loader": "^17.0.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bda4478ed57c8fa4b56a7656ca34ab3f9d4689f9"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@tne-kit/tsconfig",
+  "version": "0.0.3-alpha.0",
+  "description": "TypeScript config",
+  "license": "MIT",
+  "repository": "https://github.com/nefayran/Way/tsconfig",
+  "author": {
+    "name": "Rodion",
+    "email": "nefayran@gmail.com",
+    "url": "https://github.com/nefayran"
+  },
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=12"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "bda4478ed57c8fa4b56a7656ca34ab3f9d4689f9"
+}

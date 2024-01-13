@@ -1,0 +1,22 @@
+{
+  "extends": "@tne-kit/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist/types",
+    "types": [
+      "vite",
+      "jest"
+    ],
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}

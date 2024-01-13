@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+/.idea/
+**/storybook-static
+**/coverage/**
+lerna-debug.log
+yarn.lock
+yarn-error.log
+.space
