@@ -23,12 +23,12 @@ Install the dependencies and devDependencies and start the server.
 
 ### npm
 ```sh
-npm install @way@latest
+npm install @tne-kit@latest
 npm run start
 ```
 ### yarn
 ```sh
-yarn add @way@latest
+yarn add @tne-kit@latest
 yarn start
 ```
 

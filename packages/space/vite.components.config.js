@@ -20,7 +20,7 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "./src/components/index.ts"),
-      name: "WayComponents",
+      name: "TneComponents",
       fileName: (format) => `components.${format}.js`,
     },
     rollupOptions: {
@@ -31,7 +31,7 @@ module.exports = defineConfig({
         },
         dir: path.resolve(__dirname, "./dist/components"),
         format: "iife",
-        name: "way.components",
+        name: "tne.components",
         inlineDynamicImports: true,
         assetFileNames: (assetInfo) => {
           if (assetInfo.name === "style.css") return "styles.css";

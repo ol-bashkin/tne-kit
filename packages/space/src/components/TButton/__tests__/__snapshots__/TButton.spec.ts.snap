@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WButton.vue should have an t-button class 1`] = `<button class="t-button t-button--lg secondary--base"><span class="t-text font-secondary text-primary--base">@tne-kit</span></button>`;

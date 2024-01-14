@@ -14,6 +14,6 @@ export const parameters = {
 export const decorators = [
   (story) => ({
     components: { story, WApp },
-    template: `<w-app theme='light'><story /></w-app>`,
+    template: `<t-app theme='light'><story /></t-app>`,
   }),
 ];

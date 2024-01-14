@@ -1,6 +1,6 @@
 # @tne-kit/eslint-config
 ## Eslint Config
-Shared Eslint config for @way project and micro/monolithic frontend projects.
+Shared Eslint config for @tne-kit project and micro/monolithic frontend projects.
 
 ## Installation
 

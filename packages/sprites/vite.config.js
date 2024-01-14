@@ -17,14 +17,14 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "./src/index.ts"),
-      name: "WaySprites",
+      name: "TneSprites",
       fileName: (format) => `sprites.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],
       output: {
         format: "iife",
-        name: "way.sprites",
+        name: "tne.sprites",
         inlineDynamicImports: true,
         globals: {
           vue: "Vue",

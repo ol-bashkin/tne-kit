@@ -1,6 +1,6 @@
 {
   "name": "@tne-kit/styles",
-  "description": "Milky way styles system",
+  "description": "TNE kit styles system",
   "keywords": [
     "css",
     "grid",
@@ -22,17 +22,13 @@
     "build": "sass src/_index.scss dist/styles.css && postcss dist/styles.css > dist/styles.min.css"
   },
   "devDependencies": {
-    "postcss-cli": "^9.1.0",
-    "sass": "^1.48.0"
+    "postcss-cli": "10.1.0",
+    "sass": "1.69.7"
   },
   "dependencies": {
-    "cssnano": "^5.0.15",
-    "postcss": "^8.4.5"
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
+    "cssnano": "5.1.15",
+    "postcss": "8.4.33",
+    "autoprefixer": "10.4.16"
   },
   "browserslist": [
     "> 1%",

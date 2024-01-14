@@ -1,10 +1,11 @@
 ﻿<template>
-  <w-container class="wb-page">
+  <t-container class="wb-page">
     <main-container />
-  </w-container>
+  </t-container>
 </template>
 
 <script setup lang="ts">
-import WContainer from "@/components/WLayout/WContainer/WContainer";
+import TContainer from "@/components/TLayout/TContainer/TContainer";
 import MainContainer from "@/view/containers/MainContainer.vue";
 </script>
+@/components/TLayout/WContainer/WContainer

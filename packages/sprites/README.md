@@ -25,12 +25,12 @@ Add .svg files to ./src/sprites
 ## How to use
 Import component
 ```sh
-import { WSprite } from "@tne-kit/sprites";
+import { TSprite } from "@tne-kit/sprites";
 ```
 
 Use as component
 ```sh
-<w-sprite 
+<t-sprite 
     name="logo" 
     fill="#fffccc"
     width="50" 

@@ -1,4 +1,4 @@
-﻿describe("Run Way Space", () => {
+﻿describe("Run tne-kit Space", () => {
   it("empty area", () => {
     cy.server();
     // cy.route("GET", "/*").as("fetchArticle");

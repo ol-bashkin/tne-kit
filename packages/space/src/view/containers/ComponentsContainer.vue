@@ -2,12 +2,8 @@
   <div class="wb-container">
     <div class="wb-components my-md mx-md pa-lg br-lg flex">
       <div class="wb-component">
-        <component
-          :is="wbComponent.component"
-          v-if="wbComponent && wbComponent.component"
-          v-model="value"
-          v-bind="properties"
-        />
+        <component :is="wbComponent.component" v-if="wbComponent && wbComponent.component" v-model="value"
+          v-bind="properties" />
         <h3 v-else class="font-secondary">EMPTY</h3>
       </div>
     </div>
@@ -22,7 +18,7 @@ const wbComponent = computed(
   () => store.getters["ComponentsStore/getComponent"]
 );
 
-const value = ref("@way");
+const value = ref("@tne-kit");
 
 // const properties = ref({
 //   color: "primary--base",

@@ -1,19 +1,19 @@
 ﻿<template>
-  <w-grid cols="12" class="wb-container">
-    <w-col col="2">
+  <t-grid cols="12" class="wb-container">
+    <t-col col="2">
       <suspense>
         <secondary-sidebar-container />
       </suspense>
-    </w-col>
-    <w-col col="8">
+    </t-col>
+    <t-col col="8">
       <suspense>
         <components-container />
       </suspense>
-    </w-col>
-    <w-col col="2">
+    </t-col>
+    <t-col col="2">
       <primary-sidebar-container />
-    </w-col>
-  </w-grid>
+    </t-col>
+  </t-grid>
 </template>
 
 <script setup lang="ts">
@@ -21,8 +21,8 @@ import ComponentsContainer from "./ComponentsContainer.vue";
 import PrimarySidebarContainer from "./PrimarySidebarContainer.vue";
 import SecondarySidebarContainer from "./SecondarySidebarContainer.vue";
 import store from "@/app/store";
-import WGrid from "@/components/WLayout/WGrid/WGrid";
-import WCol from "@/components/WLayout/WCol/WCol";
+import TGrid from "@/components/TLayout/TGrid/TGrid";
+import TCol from "@/components/TLayout/TCol/TCol";
 
 store.dispatch("ComponentsStore/LoadComponents");
 </script>
@@ -33,7 +33,7 @@ html,
 #app,
 .wb-app,
 .wb-page,
-.w-wrapper,
+.t-wrapper,
 .wb-container {
   height: 100%;
   max-height: 100vh;
@@ -43,3 +43,4 @@ html,
   overflow: hidden;
 }
 </style>
+@/components/TLayout/TGrid/TGrid@/components/TLayout/TCol/TCol

@@ -1,6 +1,6 @@
 declare const Components: {
     [key: string]: any;
 };
-export { default as WApp } from "./WApp/WApp.vue";
-export { default as WButton } from "./WButton/WButton.vue";
+export { default as TApp } from "./TApp/TApp.vue";
+export { default as TButton } from "./TButton/TButton.vue";
 export default Components;

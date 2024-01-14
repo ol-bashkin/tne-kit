@@ -6,7 +6,7 @@
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
-  testURL: "http://localhost/",
+  testEnvironment: "jsdom",
   collectCoverage: true,
   collectCoverageFrom: [
     "src/**/*.{ts,tsx,vue}",

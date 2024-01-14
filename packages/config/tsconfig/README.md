@@ -1,7 +1,7 @@
 # @tne-kit/tsconfig
 ##TypeScript Config
 
-Shared TypeScript config for @way project and micro/monolithic frontend projects.
+Shared TypeScript config for @tne-kit project and micro/monolithic frontend projects.
 
 ## Installation
 

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WRow.ts should have an t-row class 1`] = `<div class="t-row row row-2"></div>`;

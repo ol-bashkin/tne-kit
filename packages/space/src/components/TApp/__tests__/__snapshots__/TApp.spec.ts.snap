@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TApp.vue should have an t-app class 1`] = `
+<div class="t-app t-app--light">
+  <div class="t-wrapper primary--base"></div>
+</div>
+`;

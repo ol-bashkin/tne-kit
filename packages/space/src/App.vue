@@ -1,12 +1,12 @@
 <template>
-  <w-app class="wb-app" :theme="theme">
+  <t-app class="wb-app" :theme="theme">
     <router-view />
-  </w-app>
+  </t-app>
 </template>
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { WApp } from "@/components";
+import { TApp } from "@/components";
 import store from "@/app/store";
 
 const theme = computed(() => store.getters["SettingsStore/getTheme"]);

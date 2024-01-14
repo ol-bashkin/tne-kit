@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TCol.ts should have an t-col class 1`] = `<div class="t-col col col-2"></div>`;

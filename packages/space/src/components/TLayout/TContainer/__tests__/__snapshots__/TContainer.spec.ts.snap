@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TContainer.ts should have an t-container class 1`] = `<div class="t-container container-lg"></div>`;

@@ -6,7 +6,7 @@
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
-  testURL: "http://localhost/",
+  testEnvironment: "jsdom",
   collectCoverage: true,
   collectCoverageFrom: ["src/**/*.{ts,tsx}", "!**/node_modules/**"],
   coverageReporters: ["lcov", "html", "text"],

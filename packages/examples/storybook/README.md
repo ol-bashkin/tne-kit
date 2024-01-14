@@ -13,7 +13,7 @@ npm install @tne-kit/storybook
 yarn add @tne-kit/storybook
 ```
 ## Run storybook
-From root @way
+From root @tne-kit
 ### npm
 ```sh
 npm run storybook
@@ -23,7 +23,7 @@ npm run storybook
 yarn storybook
 ```
 ## Build storybook
-From root @way
+From root @tne-kit
 ### npm
 ```sh
 npm run build

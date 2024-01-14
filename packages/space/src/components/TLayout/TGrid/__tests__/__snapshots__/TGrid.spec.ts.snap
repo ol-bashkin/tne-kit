@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TGrid.vue should have an t-grid class 1`] = `<div class="t-grid grid cols-6"></div>`;

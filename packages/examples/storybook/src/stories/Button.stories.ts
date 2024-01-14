@@ -7,8 +7,8 @@ export default {
 export const Default = () => ({
   components: { WButton },
   template: `
-    <w-button>
-    Milky Way
-    </w-button>
+    <t-button>
+    TNE kit
+    </t-button>
   `,
 });

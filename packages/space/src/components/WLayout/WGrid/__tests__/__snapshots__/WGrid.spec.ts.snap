@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`WGrid.vue should have an w-grid class 1`] = `<div class="w-grid grid cols-6"></div>`;

@@ -2,14 +2,17 @@
   preset: "@vue/cli-plugin-unit-jest",
   moduleFileExtensions: ["js", "ts", "json", "vue"],
   transform: {
-    ".*\\.(vue)$": "vue-jest",
+    ".*\\.(vue)$": "@vue/vue3-jest",
     "^.+\\.tsx?$": "ts-jest",
   },
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
   snapshotSerializers: ["jest-serializer-vue"],
-  testURL: "http://localhost/",
+  testEnvironment: "jsdom",
+  testEnvironmentOptions: {
+    customExportConditions: ["node", "node-addons"],
+  },
   updateSnapshot: true,
   collectCoverage: true,
   collectCoverageFrom: [

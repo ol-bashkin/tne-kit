@@ -1,13 +1,13 @@
 ﻿export const Components: { [key: string]: any } = {
-  WApp: () => import("@/components/WApp/WApp.vue"),
-  WButton: () => import("@/components/WButton/WButton.vue"),
-  WGrid: () => import("@/components/WLayout/WGrid/WGrid"),
-  WContainer: () => import("@/components/WLayout/WContainer/WContainer"),
-  WRow: () => import("@/components/WLayout/WRow/WRow"),
-  WCol: () => import("@/components/WLayout/WCol/WCol"),
-  WInput: () => import("@/components/WInput/WInput.vue"),
+  TApp: () => import("@/components/TApp/TApp.vue"),
+  TButton: () => import("@/components/TButton/TButton.vue"),
+  TGrid: () => import("@/components/TLayout/TGrid/TGrid"),
+  TContainer: () => import("@/components/TLayout/TContainer/TContainer"),
+  TRow: () => import("@/components/TLayout/TRow/TRow"),
+  TCol: () => import("@/components/TLayout/TCol/TCol"),
+  TInput: () => import("@/components/TInput/TInput.vue"),
 };
 
-export { default as WApp } from "./WApp/WApp.vue";
-export { default as WButton } from "./WButton/WButton.vue";
-export { default as WTable } from "./WButton/WButton.vue";
+export { default as TApp } from "./TApp/TApp.vue";
+export { default as TButton } from "./TButton/TButton.vue";
+export { default as TTable } from "./TButton/TButton.vue";

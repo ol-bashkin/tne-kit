@@ -8,15 +8,15 @@ exports[`PrimarySidebarContainer.vue generate components list 1`] = `
     class="wb-sidebar ma-md pa-lg br-lg"
   >
     <div
-      class="w-grid grid cols-2"
+      class="t-grid grid cols-2"
     >
       <div
-        class="w-col col col-1"
+        class="t-col col col-1"
       >
         <h1
           class="text-accent--base font-secondary"
         >
-          @way
+          @tne-kit
         </h1>
         <button
           class="border-no pa-xs br-sm accent--base"
@@ -29,11 +29,11 @@ exports[`PrimarySidebarContainer.vue generate components list 1`] = `
         </button>
       </div>
       <div
-        class="w-col col col-1"
+        class="t-col col col-1"
       >
         <svg
           aria-hidden="true"
-          class="w-sprite"
+          class="t-sprite"
           fill="#fffccc"
           height="85"
           style="color: rgb(51, 51, 51);"
@@ -68,15 +68,15 @@ exports[`PrimarySidebarContainer.vue should have an wb-container class 1`] = `
     class="wb-sidebar ma-md pa-lg br-lg"
   >
     <div
-      class="w-grid grid cols-2"
+      class="t-grid grid cols-2"
     >
       <div
-        class="w-col col col-1"
+        class="t-col col col-1"
       >
         <h1
           class="text-accent--base font-secondary"
         >
-          @way
+          @tne-kit
         </h1>
         <button
           class="border-no pa-xs br-sm accent--base"
@@ -89,11 +89,11 @@ exports[`PrimarySidebarContainer.vue should have an wb-container class 1`] = `
         </button>
       </div>
       <div
-        class="w-col col col-1"
+        class="t-col col col-1"
       >
         <svg
           aria-hidden="true"
-          class="w-sprite"
+          class="t-sprite"
           fill="#fffccc"
           height="85"
           style="color: rgb(51, 51, 51);"

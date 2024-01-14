@@ -1,7 +1,7 @@
 {
   "name": "@tne-kit/cqrs",
   "version": "0.0.3-alpha.1",
-  "description": "Milky way core system for frontend applications",
+  "description": "TNE kit core system for frontend applications",
   "keywords": [
     "vue",
     "component",

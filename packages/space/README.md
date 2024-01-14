@@ -14,7 +14,7 @@ npm install @tne-kit/space@latest
 yarn add @tne-kit/space@latest
 ```
 ## How to start
-For developing new components from root @way:
+For developing new components from root @tne-kit:
 ```sh
 npm run start
 ```
