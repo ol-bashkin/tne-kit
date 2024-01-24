@@ -26,21 +26,40 @@ exports[`MainContainer.vue should have an wb-container class 1`] = `
         <div class="wb-sidebar ma-md pa-lg br-lg">
           <div class="t-grid grid cols-2">
             <div class="t-col col col-1">
-              <h1 class="text-accent--base font-secondary">@tne-kit</h1><button class="border-no pa-xs br-sm accent--base"><span class="font-secondary">light</span></button>
+              <h1 class="text-accent--base font-secondary">@tne-kit</h1>
+              <button class="border-no pa-xs br-sm accent--base">
+                <span class="font-secondary">light</span>
+              </button>
             </div>
-            <div class="t-col col col-1"><svg class="t-sprite" width="50" height="85" aria-hidden="true" style="color: rgb(51, 51, 51);" fill="#fffccc">
-                <use xlink:href="#sprite-logo"></use>
-              </svg></div>
+            <div class="t-col col col-1">
+              <svg aria-hidden="true" class="t-sprite" fill="#fffccc" height="85" style="color: rgb(51, 51, 51);" width="50">
+                <use xlink:href="#sprite-logo" />
+              </svg>
+            </div>
           </div>
           <h3 class="pt-lg">Components:</h3>
           <ul class="pl-md pt-md white--base list-none">
-            <li class="text-md pb-md text-primary--accent-1"><span>TApp</span></li>
-            <li class="text-md pb-md text-primary--accent-1"><span>TButton</span></li>
-            <li class="text-md pb-md text-primary--accent-1"><span>TGrid</span></li>
-            <li class="text-md pb-md text-primary--accent-1"><span>TContainer</span></li>
-            <li class="text-md pb-md text-primary--accent-1"><span>TRow</span></li>
-            <li class="text-md pb-md text-primary--accent-1"><span>TCol</span></li>
-            <li class="text-md pb-md text-primary--accent-1"><span>TInput</span></li>
+            <li class="text-md pb-md text-primary--accent-1">
+              <span>TApp</span>
+            </li>
+            <li class="text-md pb-md text-primary--accent-1">
+              <span>TButton</span>
+            </li>
+            <li class="text-md pb-md text-primary--accent-1">
+              <span>TGrid</span>
+            </li>
+            <li class="text-md pb-md text-primary--accent-1">
+              <span>TContainer</span>
+            </li>
+            <li class="text-md pb-md text-primary--accent-1">
+              <span>TRow</span>
+            </li>
+            <li class="text-md pb-md text-primary--accent-1">
+              <span>TCol</span>
+            </li>
+            <li class="text-md pb-md text-primary--accent-1">
+              <span>TInput</span>
+            </li>
           </ul>
         </div>
       </div>

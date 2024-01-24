@@ -4,8 +4,8 @@
     "declaration": true,
     "outDir": "./dist/types",
     "types": [
-      "vite",
-      "jest",
+      "vite/client",
+      "@types/jest",
       "@tne-kit/core"
     ],
     "baseUrl": "./",

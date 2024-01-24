@@ -3,10 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "./dist/types",
-    "types": [
-      "vite",
-      "jest"
-    ],
+    "types": ["vite/client", "@types/jest"],
     "baseUrl": "./",
     "esModuleInterop": true,
     "paths": {

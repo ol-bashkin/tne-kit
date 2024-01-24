@@ -2,17 +2,14 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import jsx from "@vitejs/plugin-vue-jsx";
-import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
+import VitePluginSvgSpritemap from '@spiriit/vite-plugin-svg-spritemap'
 import path from "path";
 
 module.exports = defineConfig({
   plugins: [
     vue(),
     jsx(),
-    createSvgIconsPlugin({
-      iconDirs: [path.resolve(process.cwd(), "src/sprites")],
-      symbolId: "sprite-[dir]-[name]",
-    }),
+    VitePluginSvgSpritemap('./src/sprites/*.svg')
   ],
   build: {
     lib: {

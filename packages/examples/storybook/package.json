@@ -7,8 +7,8 @@
   ],
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "lint": "eslint --ext .js,.ts,.vue",
-    "build": "storybook build"
+    "example:lint": "eslint --ext .js,.ts,.vue",
+    "example:build": "storybook build"
   },
   "dependencies": {
     "@tne-kit/eslint-config": "^0.0.3-alpha.1",

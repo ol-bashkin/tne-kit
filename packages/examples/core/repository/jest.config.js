@@ -1,5 +1,4 @@
 ﻿module.exports = {
-  preset: "@vue/cli-plugin-unit-jest",
   moduleFileExtensions: ["js", "ts", "json", "vue"],
   transform: {
     ".*\\.(vue)$": "@vue/vue3-jest",
@@ -8,7 +7,7 @@
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
-  snapshotSerializers: ["jest-serializer-vue"],
+  snapshotSerializers: ["jest-serializer-vue-tjw"],
   testEnvironment: "jsdom",
   updateSnapshot: true,
   collectCoverage: true,
